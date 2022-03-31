@@ -24,6 +24,14 @@ async function main() {
 
     const newMessage = await helloWorldContract.message();
     console.log("The message is: " + newMessage);
+
+    try {
+        console.log("Verifying contract...");
+    } catch (error) {
+        if (error.message.includes("Reason: Already Verified")) {
+            console.log("Contract is already verified!")
+        }
+    }
 }
 
 main()

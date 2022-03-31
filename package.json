@@ -18,6 +18,7 @@
   "homepage": "https://github.com/yourOnlyCode/web3-hello-world#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
     "ethers": "^5.0.0",
     "hardhat": "^2.9.2"
   },
